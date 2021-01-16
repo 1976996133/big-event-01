@@ -1,0 +1,64 @@
+/* 底部黑马 */
+.layui-footer{
+    text-align: center;
+    font-size: 12px;
+}
+
+/* 字体图标iconfont */
+.iconfont{
+    margin-right: 10px;
+}
+
+/* 字体图标layui */
+.layui-icon{
+    margin-left: 20px;
+    margin-right: 8px;
+}
+/* 隐藏滚动条 */
+.layui-body{
+    overflow: hidden;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}
+a {
+    transition: none !important;
+}
+
+/* 头像 */
+.userinfo{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    /* 鼠标不能选取 */
+    user-select: none;
+}
+
+/*侧边框加底边 */
+.layui-side-scroll .userinfo{
+    border-bottom: 1px solid #000000;
+}
+
+.layui-nav-img{
+    width: 40px;
+    height: 40px;
+}
+
+.text-avatar{
+    display:inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #009688;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    /* 垂直对齐 */
+    vertical-align: middle;
+    margin-right: 10px;
+    
+
+}
