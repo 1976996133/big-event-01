@@ -2,6 +2,7 @@
 $(function () {
     //1.获取用户信息，并渲染用户名和头像
     getUesrInfo();
+
     // 2.退出登陆功能
     var layer = layui.layer;//可写可不写
     $('#btnLogout').on('click', function () {
