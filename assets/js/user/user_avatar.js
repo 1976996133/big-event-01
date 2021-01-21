@@ -56,7 +56,7 @@ $(function () {
                     return layer.msg(res.message);
                 }
                 layer.msg('恭喜您,更换成功!');
-                window.parent.getUserInof();
+                window.parent.getUesrInfo();
             }
         })
     })
